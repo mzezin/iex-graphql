@@ -1,0 +1,11 @@
+type Query {
+  symbols: [Symbol!]!
+}
+
+type Symbol {
+  iexId: ID!
+  isEnabled: Boolean!
+  symbol: String! 
+  name: String!
+  price: Float!
+}
